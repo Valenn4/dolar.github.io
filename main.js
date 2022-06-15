@@ -59,22 +59,11 @@ form.addEventListener("submit", (e) => {
         let extraer = compra.substring(indice+ 2)
         let listo = extraer.replace(",", ".")
         
-        resultadoCambio.innerHTML = Number(listo) * inputPesos.value
+        resultadoCambio.innerHTML = 'El resultado es: ' + Number(listo) * inputPesos.value
         console.log(resultadoCambio)
 
     }
-
-    if (form.listaDolares.value === "Dolar Blue"){
-        const compra = document.querySelectorAll(".compra")[1].innerHTML
-
-        let indice = compra.indexOf(":")
-        let extraer = compra.substring(indice+ 2)
-        let listo = extraer.replace(",", ".")
-        
-        resultadoCambio.innerHTML = Number(listo) * inputPesos.value
-
-    }
-
+    
     if (form.listaDolares.value === "Dolar Blue"){
         const compra = document.querySelectorAll(".compra")[1].innerHTML
 
