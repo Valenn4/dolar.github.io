@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+}
+.dolares {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.dolares p {
+    text-align: center;
+    margin: 20px;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.divDolar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    width: 30%;
+    height: 100px;
+    margin: 10px;
+}
+
+
+.cambio {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.cambio form {
+    margin-top: 20px;
+}
+
+.resultadoCambio {
+    margin-top: 10px;
+}
